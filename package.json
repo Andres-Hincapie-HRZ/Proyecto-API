@@ -1,0 +1,21 @@
+{
+  "name": "mi-primera-api",
+  "version": "1.0.0",
+  "description": "API sencilla para aprender qué es una API y cómo funciona",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "api",
+    "nodejs",
+    "express",
+    "tutorial"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

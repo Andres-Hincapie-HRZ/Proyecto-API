@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "platillo": "Pizza Margarita",
+    "entregado": false
+  },
+  {
+    "id": 2,
+    "platillo": "Hamburguesa Clásica",
+    "entregado": false
+  },
+  {
+    "id": 1764463267797,
+    "platillo": "d",
+    "entregado": false
+  }
+]

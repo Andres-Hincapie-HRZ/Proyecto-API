@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Configuración básica del documento -->
+  <meta charset="UTF-8"> <!-- Codificación de caracteres -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive -->
+  <title>Restaurante API</title> <!-- Título de la pestaña -->
+  <link rel="stylesheet" href="style.css"> <!-- Enlace a estilos CSS -->
+</head>
+
+<body>
+  <!-- CONTENEDOR PRINCIPAL DEL RESTAURANTE -->
+  <div class="container">
+    <!-- Título principal -->
+    <h1>Restaurante API</h1>
+    <!-- Subtítulo explicativo -->
+    <p class="subtitle">Sistema de pedidos con Frontend y Backend</p>
+
+    <!-- Grupo de entrada para nuevos pedidos -->
+    <div class="input-group">
+      <!-- Input donde el cliente escribe su pedido -->
+      <input type="text" id="nuevoPedido" placeholder="¿Qué platillo deseas ordenar?">
+      <!-- Botón para enviar el pedido -->
+      <button onclick="agregarPedido()">Ordenar</button>
+    </div>
+
+    <!-- Lista donde se muestran todos los pedidos -->
+    <ul id="listaPedidos"></ul>
+  </div>
+
+  <!-- Enlace al archivo JavaScript que maneja la lógica -->
+  <script src="app.js"></script>
+</body>
+
+</html>

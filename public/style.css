@@ -1,0 +1,117 @@
+/* 🍽️ RESTAURANTE - DISEÑO MINIMALISTA (Estilos CSS) */
+
+/* Reseteo de estilos por defecto del navegador */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos del cuerpo principal (fondo del restaurante) */
+body {
+  font-family: Arial, sans-serif;
+  /* Fuente del texto */
+  background: white;
+  /* Fondo blanco limpio */
+  min-height: 100vh;
+  /* Altura mínima de toda la pantalla */
+  display: flex;
+  /* Usamos flexbox para centrar */
+  justify-content: center;
+  /* Centrado horizontal */
+  align-items: center;
+  /* Centrado vertical */
+  padding: 20px;
+  /* Espaciado interno */
+}
+
+/* Contenedor principal (carta del restaurante) */
+.container {
+  border: 2px solid black;
+  /* Borde negro */
+  padding: 30px;
+  /* Espaciado interno */
+  max-width: 500px;
+  /* Ancho máximo */
+  width: 100%;
+  /* Ancho completo hasta el máximo */
+}
+
+/* Título principal */
+h1 {
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Subtítulo */
+.subtitle {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+/* Grupo de entrada (input + botón) */
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Campo de texto para pedidos */
+input {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid black;
+  font-size: 16px;
+}
+
+/* Botón principal */
+button {
+  padding: 12px 25px;
+  background: black;
+  color: white;
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:hover {
+  background: white;
+  color: black;
+}
+
+/* Invertir colores al pasar el mouse */
+
+/* Lista de pedidos */
+ul {
+  list-style: none;
+}
+
+/* Sin viñetas */
+li {
+  border: 1px solid black;
+  padding: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Botón de eliminar */
+.btn-eliminar {
+  background: white;
+  color: black;
+  border: 2px solid black;
+  padding: 8px 15px;
+  font-size: 14px;
+}
+
+.btn-eliminar:hover {
+  background: black;
+  color: white;
+}
+
+/* Invertir colores al pasar el mouse */
