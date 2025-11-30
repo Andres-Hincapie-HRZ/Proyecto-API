@@ -1,5 +1,5 @@
 # Entendiendo las APIs - Guía para Presentación
-<img width="1748" height="951" alt="image" src="https://github.com/user-attachments/assets/4b1e0608-f010-4c09-a355-cd3cf4bd242d" />
+<img width="1365" height="723" alt="image" src="https://github.com/user-attachments/assets/d51ed837-c266-45bd-9e22-cd8b55fa3adf" />
 
 ## 1. ¿Qué es una API?
 
